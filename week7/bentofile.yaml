@@ -1,0 +1,12 @@
+service: "service.py:svc"
+labels:
+  owner: Nick
+  project: ML_Zoomcamp
+include:
+- "*.py"
+python:
+  packages: 
+    - xgboost
+    - sklearn
+    - pydantic
+
